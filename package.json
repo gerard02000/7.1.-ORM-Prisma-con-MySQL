@@ -11,13 +11,17 @@
     "seed": "node ./prisma/seed.mjs"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.7.2",
+    "@prisma/adapter-neon": "^5.9.0",
     "@prisma/client": "^5.7.1",
     "@vercel/postgres": "^0.5.1",
     "next": "^14.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@types/ws": "^8.5.10",
     "prisma": "^5.7.1"
   }
 }
